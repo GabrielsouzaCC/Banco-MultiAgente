@@ -1,4 +1,4 @@
-# 💳 SuperBanco — Sistema Multiagente com IA
+#  SuperBanco — Sistema Multiagente com IA
  
 **Aluno:** Gabriel De Oliveira Souza &nbsp;|&nbsp; **RM:** 571583 &nbsp;|&nbsp; **Turma:** CCPQ &nbsp;|&nbsp; **FIAP 2026**
  
@@ -46,7 +46,7 @@ Tudo isso sem que o usuário precise navegar por menus ou seguir scripts rígido
  
 ---
  
-## 🤖 Arquitetura Multiagente
+##  Arquitetura Multiagente
  
 ```
 Usuário
@@ -70,10 +70,10 @@ Agente Roteador
  
 | Agente | Responsabilidade |
 |---|---|
-| 🔀 **Roteador** | Classifica a intenção e faz o handoff para o especialista |
-| 🏦 **Atendimento** | Responde mensagens gerais e orienta o usuário |
-| 💸 **Agente PIX** | Busca contatos, valida saldo e executa transferências |
-| ❓ **Agente de Dúvidas** | Responde sobre tarifas, produtos e serviços com histórico de conversa |
+|  **Roteador** | Classifica a intenção e faz o handoff para o especialista |
+|  **Atendimento** | Responde mensagens gerais e orienta o usuário |
+|  **Agente PIX** | Busca contatos, valida saldo e executa transferências |
+|  **Agente de Dúvidas** | Responde sobre tarifas, produtos e serviços com histórico de conversa |
  
 ### Ferramentas (Tools)
  
@@ -96,16 +96,16 @@ As habilidades demonstradas nesse projeto — **orquestração de agentes, integ
  
 ---
  
-## 🛠️ Tecnologias
+##  Tecnologias
  
 - **React 18** + **Vite 5**
-- **Anthropic API** — Claude claude-sonnet-4-6
+- **Anthropic API** 
 - Arquitetura: Agents + Tools + Handoffs
 - CSS-in-JS com design tokens
 - Fontes: Plus Jakarta Sans + Inter + JetBrains Mono
 ---
  
-## 📚 Conceitos aplicados
+##  Conceitos aplicados
  
 - **Agents** — cada agente tem system prompt e escopo de atuação próprios
 - **Tools** — funções que os agentes chamam para executar ações reais no sistema
@@ -114,14 +114,13 @@ As habilidades demonstradas nesse projeto — **orquestração de agentes, integ
 - **Prompt engineering** — instruções precisas para extração de entidades (nome, valor) em JSON
 ---
  
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
  
 ```
 banco-multiagente/
 ├── src/
 │   ├── App.jsx         ← agentes, tools, handoffs e UI
 │   └── main.jsx        ← entrada do React
-├── screenshots/        ← prints do app (adicionar manualmente)
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -144,7 +143,7 @@ banco-multiagente/
  
 ---
  
-## 🚀 Como rodar
+##  Como rodar
  
 ### 1. Clonar o repositório
  
@@ -171,7 +170,6 @@ Abra o `.env` e adicione sua chave:
 VITE_ANTHROPIC_KEY=sk-ant-sua-chave-aqui
 ```
  
-> Obtenha sua chave em: [console.anthropic.com](https://console.anthropic.com)
  
 ### 4. Rodar
  
