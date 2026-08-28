@@ -112,22 +112,6 @@ As habilidades demonstradas nesse projeto — **orquestração de agentes, integ
 - **Handoffs** — delegação de tarefas entre agentes com base na intenção detectada
 - **Histórico de conversa** — o Agente de Dúvidas mantém contexto entre turnos
 - **Prompt engineering** — instruções precisas para extração de entidades (nome, valor) em JSON
----
- 
-##  Estrutura do projeto
- 
-```
-banco-multiagente/
-├── src/
-│   ├── App.jsx         ← agentes, tools, handoffs e UI
-│   └── main.jsx        ← entrada do React
-├── index.html
-├── package.json
-├── vite.config.js
-├── .env.example        ← modelo da configuração
-├── .gitignore
-└── README.md
-```
  
 ---
  
@@ -139,7 +123,6 @@ banco-multiagente/
 | `"Qual meu saldo?"` | 💸 Agente PIX |
 | `"Tem taxa pra usar o PIX à noite?"` | ❓ Agente de Dúvidas |
 | `"Qual a anuidade do cartão?"` | ❓ Agente de Dúvidas |
-| `"Manda R$ 200 pro Pedro"` | 💸 Agente PIX |
  
 ---
  
