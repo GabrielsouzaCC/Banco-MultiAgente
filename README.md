@@ -18,18 +18,20 @@ Sistemas de chatbot tradicionais falham porque não conseguem entender linguagem
  
 ### Tela principal
 <!-- Print da tela inicial -->
-![Tela principal](screenshots/tela-principal.png)
+<img width="1363" height="590" alt="tela-principal" src="https://github.com/user-attachments/assets/bd8aa931-d0c3-4f0d-9670-08e6d4642741" />
+
  
 ### Agente PIX em ação
 <!-- Print de um PIX sendo realizado -->
-![Agente PIX](screenshots/agente-pix.png)
+<img width="1309" height="605" alt="agente-pix" src="https://github.com/user-attachments/assets/4dd526f6-db85-424e-b019-2c0c209e6e16" />
+
  
 ### Agente de Dúvidas
 <!-- Print do agente respondendo uma dúvida -->
-![Agente de Dúvidas](screenshots/agente-duvidas.png)
+<img width="1308" height="584" alt="agente-duvidas" src="https://github.com/user-attachments/assets/a6b88fef-95a1-4c0a-ab89-d6dc50923d98" />
+
  
-> Para adicionar as prints: crie uma pasta `screenshots/` na raiz do projeto e salve as imagens com os nomes acima.
- 
+
 ---
  
 ## O que foi construído
